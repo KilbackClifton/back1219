@@ -3,7 +3,7 @@
 # Web Site:https://www.hicairo.com
 # Telegram:https://t.me/HiaiFeng
 
-sed -i "s#4c321e78-06c6-45c8-91da-c7242ac9caf3#$4c321e78-06c6-45c8-91da-c7242ac9caf3#g;s#VMESS_WSPATH#$VMESS_WSPATH#g;s#VLESS_WSPATH#$VLESS_WSPATH#g" /etc/v2ray/config.json
+sed -i "s#UUID#$UUID#g;s#VMESS_WSPATH#$VMESS_WSPATH#g;s#VLESS_WSPATH#$VLESS_WSPATH#g" /etc/v2ray/config.json
 sed -i "s#VMESS_WSPATH#$VMESS_WSPATH#g;s#VLESS_WSPATH#$VLESS_WSPATH#g" /etc/nginx/nginx.conf
 # exec "$@"
 
